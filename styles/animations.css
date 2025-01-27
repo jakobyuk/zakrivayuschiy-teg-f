@@ -13,9 +13,11 @@
 @keyframes like-scale {
   from {
     transform: scale(1);
+    transform-origin: center;
   }
   to {
     transform: scale(1.25);
+    transform-origin: center;
   }
 }
 
@@ -67,7 +69,6 @@
 }
 
 /* active */
-
 
 .like-icon:active .core {
   fill: var(--heart-color, #FF0000);
